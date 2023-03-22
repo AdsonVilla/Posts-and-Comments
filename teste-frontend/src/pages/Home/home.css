@@ -1,0 +1,11 @@
+.header {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header span {
+  color: #9d9d9d;
+}
