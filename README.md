@@ -27,3 +27,5 @@ $ npm install
 ```
 $ npm run dev
 ```
+## Links das APIs Utilizadas
+- https://jsonplaceholder.typicode.com/posts
