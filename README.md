@@ -6,6 +6,7 @@ O projeto trata de uma interface de um blog, o qual denominei ALKABlog, na qual 
 
 - Vite: Utilizado para criação da estrutura de códigos de frameworks JavaScript
 - React: Biblioteca JavaScript para criação de páginas dinâmicas e de fácil reutilização
+- React Hooks: Para gerenciamento de estados
 - JavaScript
 - CSS: Foi escolhido o uso do CSS puro para demonstrar conhecimento da base
 - npm: Utilizado para instalação de pacotes e dependências no projeto
@@ -27,5 +28,13 @@ $ npm install
 ```
 $ npm run dev
 ```
+
+## Pacotes baixados via npm
+- React Router: Utilizado para criar rotas na aplicação e facilitar a navegação entre as páginas
+
+```
+$ npm install react-router-dom
+```
+
 ## Links das APIs Utilizadas
 - https://jsonplaceholder.typicode.com/posts
