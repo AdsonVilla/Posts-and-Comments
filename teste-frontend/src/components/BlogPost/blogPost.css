@@ -1,7 +1,17 @@
-.post-box {
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.posts-list a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  text-decoration: none;
+  color: #000;
   background-color: #d9d9d9;
   width: 70%;
   gap: 20px;
@@ -10,9 +20,6 @@
   margin-bottom: 36px;
 }
 
-.posts-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.posts-list a h3 {
+  font-size: 24px;
 }
