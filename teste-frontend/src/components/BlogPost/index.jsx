@@ -17,12 +17,11 @@ export function BlogPost() {
       <ul>
         {posts.map((post) => {
           return (
-            <li key={post.title} className="posts-list">
+            <li key={post.id} className="posts-list">
               <Link to="/comments">
-                {/* <div className="post-box"> */}
                 <h3>{post.title}</h3>
+                <span>{post.id}</span>
                 <p>{post.body}</p>
-                {/* </div> */}
               </Link>
             </li>
           );

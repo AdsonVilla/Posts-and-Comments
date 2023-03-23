@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 export function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-contents">
-        <div>
+        <Link to="/">
           <img src="/ALKABlog.svg" alt="Logo-Alkablog" />
-        </div>
+        </Link>
         <div>
           <ul className="options">
             <li>
