@@ -8,7 +8,7 @@ function Home() {
     <div id="top">
       <Navbar />
       <header className="header">
-        <span>22/03/2023</span>
+        <span>23/03/2022</span>
         <h1>Posts recentes</h1>
       </header>
       <div className="posts-container">
