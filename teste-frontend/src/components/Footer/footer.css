@@ -1,0 +1,16 @@
+.footer-contents {
+  background-color: #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.back-to-top a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #000;
+}

@@ -1,10 +1,11 @@
 import { BlogPost } from "../../components/BlogPost";
+import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import "./home.css";
 
 function Home() {
   return (
-    <div>
+    <div id="top">
       <Navbar />
       <header className="header">
         <span>22/03/2023</span>
@@ -13,6 +14,7 @@ function Home() {
       <div className="posts-container">
         <BlogPost />
       </div>
+      <Footer />
     </div>
   );
 }

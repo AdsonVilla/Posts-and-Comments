@@ -4,13 +4,13 @@ import "./blogPost.css";
 
 export function BlogPost() {
   const [posts, setPosts] = useState([]);
-  const [limit, setLimit] = useState(10);
+  const [limitOfPosts, setLimitOsPosts] = useState(10);
 
   const handleShowMore = () => {
-    setLimit(limit + 10);
+    setLimitOsPosts(limitOfPosts + 10);
   };
 
-  const postsToShow = posts.slice(0, limit);
+  const postsToShow = posts.slice(0, limitOfPosts);
 
   const api = "https://jsonplaceholder.typicode.com/posts";
   useEffect(() => {
@@ -34,7 +34,7 @@ export function BlogPost() {
         })}
 
         <div className="button-div">
-          {posts.length > limit && (
+          {posts.length > limitOfPosts && (
             <button className="show-more" onClick={handleShowMore}>
               Ver mais
             </button>
