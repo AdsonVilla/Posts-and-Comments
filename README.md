@@ -40,6 +40,10 @@ $ npm install react-router-dom
 ```
 $ npm install react-icons --save
 ```
+- Moment.js: Biblioteca para pegar a data atual e formatá-la do jeito desejado no projeto
+```
+$ npm install moment
+```
 
 ## Links das APIs Utilizadas
 - https://jsonplaceholder.typicode.com/posts
