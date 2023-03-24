@@ -14,7 +14,7 @@ export function Navbar() {
               <a href="#">Sobre nós</a>
             </li>
             <li>
-              <a href="#">Entre em contato</a>
+              <a href="#contactUs">Entre em contato</a>
             </li>
           </ul>
         </div>

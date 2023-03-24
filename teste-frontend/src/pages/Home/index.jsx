@@ -1,4 +1,5 @@
 import { BlogPost } from "../../components/BlogPost";
+import { ContactUs } from "../../components/ContactUs";
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import "./home.css";
@@ -14,6 +15,8 @@ function Home() {
       <div className="posts-container">
         <BlogPost />
       </div>
+
+      <ContactUs />
       <Footer />
     </div>
   );
