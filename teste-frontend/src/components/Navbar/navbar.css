@@ -45,3 +45,8 @@
     font-size: 15px;
   }
 }
+@media (max-width: 364px) {
+  .options li a {
+    font-size: 13px;
+  }
+}
