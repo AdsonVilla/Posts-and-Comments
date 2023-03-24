@@ -1,3 +1,4 @@
+import { AboutUs } from "../../components/AboutUs";
 import { BlogPost } from "../../components/BlogPost";
 import { ContactUs } from "../../components/ContactUs";
 import { Footer } from "../../components/Footer";
@@ -15,7 +16,7 @@ function Home() {
       <div className="posts-container">
         <BlogPost />
       </div>
-
+      <AboutUs />
       <ContactUs />
       <Footer />
     </div>

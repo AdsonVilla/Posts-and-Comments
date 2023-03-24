@@ -11,7 +11,7 @@ export function Navbar() {
         <div>
           <ul className="options">
             <li>
-              <a href="#">Sobre nós</a>
+              <a href="#aboutUs">Sobre nós</a>
             </li>
             <li>
               <a href="#contactUs">Entre em contato</a>
