@@ -35,6 +35,11 @@ $ npm run dev
 ```
 $ npm install react-router-dom
 ```
+- React Icons: Biblioteca de ícones para utilizar nos projetos
+
+```
+$ npm install react-icons --save
+```
 
 ## Links das APIs Utilizadas
 - https://jsonplaceholder.typicode.com/posts
