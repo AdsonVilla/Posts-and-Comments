@@ -14,6 +14,13 @@ footer {
   padding: 40px;
 }
 
+.footer-logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .back-to-top a {
   display: flex;
   align-items: center;
