@@ -40,3 +40,20 @@
   border: 1px solid #9d9d9d;
   border-radius: 6px;
 }
+
+@media (max-width: 863px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+  }
+
+  .doubts-and-sugestions {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+}

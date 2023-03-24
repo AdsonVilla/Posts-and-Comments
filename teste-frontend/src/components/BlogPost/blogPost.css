@@ -30,4 +30,30 @@
   justify-content: center;
 }
 
-/
+@media (max-width: 863px) {
+  .posts-list a h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 658px) {
+  .posts-list a h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 527px) {
+  .posts-list a h3 {
+    font-size: 18px;
+  }
+
+  .posts-list a p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 391px) {
+  .posts-list a h3 {
+    font-size: 17px;
+  }
+}

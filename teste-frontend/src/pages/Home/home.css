@@ -17,3 +17,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 863px) {
+  .header h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 497px) {
+  .header h1 {
+    font-size: 26px;
+  }
+}
