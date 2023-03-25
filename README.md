@@ -47,3 +47,4 @@ $ npm install moment
 
 ## Links das APIs Utilizadas
 - https://jsonplaceholder.typicode.com/posts
+- https://jsonplaceholder.typicode.com/posts/[ID]/comments
