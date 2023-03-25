@@ -10,6 +10,7 @@ O projeto trata de uma interface de um blog, o qual denominei ALKABlog, na qual 
 - JavaScript
 - CSS: Foi escolhido o uso do CSS puro para demonstrar conhecimento da base
 - npm: Utilizado para instalação de pacotes e dependências no projeto
+- Jest: Implementado para futuros testes na aplicação
 - Visual Studio Code (VS Code): Ambiente de desenvolvimento
 
 ## Instruções de como rodar o projeto
@@ -43,6 +44,10 @@ $ npm install react-icons --save
 - Moment.js: Biblioteca para pegar a data atual e formatá-la do jeito desejado no projeto
 ```
 $ npm install moment
+```
+- Jest: Framework de testes
+```
+$ npm install --save-dev jest @types/jest
 ```
 
 ## Links das APIs Utilizadas
