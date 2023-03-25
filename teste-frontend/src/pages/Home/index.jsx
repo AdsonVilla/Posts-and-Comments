@@ -7,6 +7,7 @@ import moment from "moment";
 import "./home.css";
 
 function Home() {
+  //Pegar a data atual e formatá-la
   const date = new Date();
   const formatDate = moment(date).format("DD/MM/YYYY");
   return (

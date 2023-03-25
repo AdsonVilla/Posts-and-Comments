@@ -41,6 +41,8 @@
   border-radius: 6px;
 }
 
+/* ============ Responsividade ================ */
+
 @media (max-width: 863px) {
   .contact-container {
     flex-direction: column;

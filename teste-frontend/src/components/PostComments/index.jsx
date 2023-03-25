@@ -3,9 +3,11 @@ import { useParams } from "react-router-dom";
 import "./postComments.css";
 
 export function PostComments() {
+  //Acessar o parâmetro id para usá-lo dinamicamente na url da API de comentários
   const { id } = useParams();
   const [comments, setComments] = useState([]);
 
+  // Chamar a API que mostra os comentários exclusivos do post clicado, a partir de seu id
   useEffect(() => {
     fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
       .then((response) => response.json())

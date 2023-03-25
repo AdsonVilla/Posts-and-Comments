@@ -29,6 +29,8 @@ footer {
   color: #000;
 }
 
+/* ============ Responsividade ================ */
+
 @media (max-width: 960px) {
   .footer-logo {
     width: 70%;
@@ -41,16 +43,19 @@ footer {
     gap: 8px;
   }
 }
+
 @media (max-width: 465px) {
   .footer-logo span {
     font-size: 15px;
   }
 }
+
 @media (max-width: 382px) {
   .footer-logo span {
     font-size: 14px;
   }
 }
+
 @media (max-width: 362px) {
   .footer-logo span {
     font-size: 13px;

@@ -40,6 +40,8 @@
   color: #9d9d9d;
 }
 
+/* ============ Responsividade ================ */
+
 @media (max-width: 776px) {
   .title-and-user-email {
     flex-direction: column;
