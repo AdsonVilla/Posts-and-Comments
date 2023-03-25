@@ -3,6 +3,15 @@ import { FaEnvelope, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "./contactUs.css";
 
 export function ContactUs() {
+  const [userEmail, setUserEmail] = useState("");
+  const [userDoubtOrSuggestions, setUserDoubtOrSugestion] = useState("");
+
+  function handleUserEmailAndDoubtOrSuggestions() {
+    setUserEmail("");
+    setUserDoubtOrSugestion("");
+    alert("Enviado. Obrigado pelo contato!");
+  }
+
   return (
     <div id="contactUs" className="contact-container">
       <div className="social-networks">
@@ -27,13 +36,20 @@ export function ContactUs() {
       </div>
       <div className="doubts-and-sugestions">
         <h4>Para dúvidas ou sugestões:</h4>
-        <input type="text" placeholder="Digite seu E-mail" />
+        <input
+          type="text"
+          placeholder="Digite seu E-mail"
+          value={userEmail}
+          onChange={(ev) => setUserEmail(ev.target.value)}
+        />
         <textarea
           rows="5"
           cols="30"
           placeholder="Seu comentário ou sugestão..."
+          value={userDoubtOrSuggestions}
+          onChange={(ev) => setUserDoubtOrSugestion(ev.target.value)}
         />
-        <button>Enviar</button>
+        <button onClick={handleUserEmailAndDoubtOrSuggestions}>Enviar</button>
       </div>
     </div>
   );
