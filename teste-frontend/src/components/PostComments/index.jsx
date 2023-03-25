@@ -4,16 +4,9 @@ import "./postComments.css";
 
 export function PostComments() {
   const { id } = useParams();
-  // const [post, setPost] = useState({});
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    // fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
-    //   .then((response) => response.json())
-    //   .then((post) => {
-    //     setPost(post);
-    //   });
-
     fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
       .then((response) => response.json())
       .then((comments) => {

@@ -39,3 +39,19 @@
 .title-and-user-email span {
   color: #9d9d9d;
 }
+
+@media (max-width: 776px) {
+  .title-and-user-email {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .title-and-user-email span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 702px) {
+  .comment p {
+    font-size: 15px;
+  }
+}
