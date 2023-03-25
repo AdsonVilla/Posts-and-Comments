@@ -9,12 +9,33 @@
 .comment-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   color: #000;
   background-color: #d9d9d9;
-  width: 70%;
+  width: 80%;
   gap: 20px;
   padding: 18px 12px;
   border-radius: 6px;
   margin-bottom: 36px;
+}
+
+.comment {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  justify-content: center;
+  width: 90%;
+  gap: 10px;
+  padding: 16px 10px;
+}
+
+.title-and-user-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-and-user-email span {
+  color: #9d9d9d;
 }

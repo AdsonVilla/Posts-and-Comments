@@ -5,16 +5,17 @@ import "./blogPost.css";
 export function BlogPost() {
   const [posts, setPosts] = useState([]);
   const [limitOfPosts, setLimitOsPosts] = useState(10);
+  const [comments, setComments] = useState([]);
 
-  const handleShowMore = () => {
+  function handleShowMore() {
     setLimitOsPosts(limitOfPosts + 10);
-  };
+  }
 
   const postsToShow = posts.slice(0, limitOfPosts);
 
-  const api = "https://jsonplaceholder.typicode.com/posts";
+  const postsApi = "https://jsonplaceholder.typicode.com/posts";
   useEffect(() => {
-    fetch(api)
+    fetch(postsApi)
       .then((response) => response.json())
       .then((data) => setPosts(data));
   }, []);
@@ -25,7 +26,7 @@ export function BlogPost() {
         {postsToShow.map((post) => {
           return (
             <li key={post.id} className="posts-list">
-              <Link to="/comments">
+              <Link to={`/${post.id}/comments`}>
                 <h3>{post.title}</h3>
                 <p>{post.body}</p>
               </Link>

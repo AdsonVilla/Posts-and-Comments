@@ -9,8 +9,7 @@ export function RoutesApp() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/comments" element={<Comments />} />
-        {/* <Route path="/about" element={<AboutUs />} /> */}
+        <Route path="/:id/comments" element={<Comments />} />
       </Routes>
     </BrowserRouter>
   );

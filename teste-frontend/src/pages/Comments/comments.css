@@ -1,3 +1,8 @@
+nav {
+  margin-top: 15px;
+  padding: 16px;
+}
+
 .header {
   margin-top: 24px;
   display: flex;
@@ -9,4 +14,21 @@
 
 .header span {
   color: #9d9d9d;
+}
+
+/* .header h1 {
+  display: flex;
+  gap: 8px;
+} */
+
+@media (max-width: 863px) {
+  .header h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 497px) {
+  .header h1 {
+    font-size: 26px;
+  }
 }
