@@ -16,10 +16,10 @@ nav {
   color: #9d9d9d;
 }
 
-/* .header h1 {
+.header h1 {
   display: flex;
   gap: 8px;
-} */
+}
 
 @media (max-width: 863px) {
   .header h1 {
