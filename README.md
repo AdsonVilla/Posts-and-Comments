@@ -1,6 +1,6 @@
 # Teste-Frontend
 
-O projeto trata de uma interface de um blog, o qual denominei ALKABlog, na qual seja possível observar os posts e, ao clicar em um post, sejam exibidos seus respectivos comentários.
+O projeto trata de uma interface de um blog, na qual seja possível observar os posts e, ao clicar em um post, sejam exibidos seus respectivos comentários.
 
 ## Funcionalidades
 
@@ -62,3 +62,21 @@ $ npm install --save-dev jest @types/jest
 ## Links das APIs Utilizadas
 - https://jsonplaceholder.typicode.com/posts
 - https://jsonplaceholder.typicode.com/posts/[ID]/comments
+
+## Imagens da aplicação
+- Página Home
+
+![image](https://user-images.githubusercontent.com/105760278/227955980-50a26f11-099c-4244-82ae-a9ccf7e810cb.png)
+![image](https://user-images.githubusercontent.com/105760278/227956144-9a67638b-6087-4faf-afe9-046647be60d2.png)
+![image](https://user-images.githubusercontent.com/105760278/227956268-08670551-f61b-4096-b8b3-ccbd5a643284.png)
+![image](https://user-images.githubusercontent.com/105760278/227956419-c4bbe30d-0d5f-420c-9d83-0bf879ddef79.png)
+![image](https://user-images.githubusercontent.com/105760278/227956606-d8a689ad-5398-4f8a-98ef-1a8723231abe.png)
+
+- Página Comments
+![image](https://user-images.githubusercontent.com/105760278/227956808-e9e37db3-fbee-4059-9f0d-ea334fe61e8e.png)
+![image](https://user-images.githubusercontent.com/105760278/227957087-42ca970e-1389-4f41-b105-32529a6baf93.png)
+![image](https://user-images.githubusercontent.com/105760278/227957278-18d61e39-90fc-4ff2-9dd0-1914f92ed516.png)
+
+
+
+
