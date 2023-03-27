@@ -1,6 +1,6 @@
 # Teste-Frontend
 
-O projeto trata de uma interface de um blog, o qual denominei ALKABlog, na qual seja possível observar os posts e, ao clicar em um post, seja exibido seus respectivos comentários.
+O projeto trata de uma interface de um blog, o qual denominei ALKABlog, na qual seja possível observar os posts e, ao clicar em um post, sejam exibidos seus respectivos comentários.
 
 ## Tecnologias Utilizadas
 
