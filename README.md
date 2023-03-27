@@ -22,6 +22,9 @@ Vale ressaltar que a página se adapta aos tamanhos de tela.
 - Visual Studio Code (VS Code): Ambiente de desenvolvimento
 - Design responsivo
 
+## Link do design base feito no Figma
+- https://www.figma.com/file/OShKIIhPsFqcG0eQDFcSou/Blog---Desafio-Pr%C3%A1tico?node-id=0-1&t=4ThPLw3RmGK463j4-0
+
 ## Instruções de como rodar o projeto
 
 - Para a instalação do vite e react, pelo terminal do VS Code:
