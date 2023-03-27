@@ -10,6 +10,10 @@ Ao clicar em um post, o usuário é direcionado à página de comentários, a qu
 
 Vale ressaltar que a página se adapta aos tamanhos de tela.
 
+## Link do design base feito no Figma
+
+- https://www.figma.com/file/OShKIIhPsFqcG0eQDFcSou/Blog---Desafio-Pr%C3%A1tico?node-id=0-1&t=4ThPLw3RmGK463j4-0
+
 ## Tecnologias Utilizadas
 
 - Vite: Utilizado para criação da estrutura de códigos de frameworks JavaScript
