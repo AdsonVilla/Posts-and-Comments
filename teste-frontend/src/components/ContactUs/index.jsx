@@ -45,7 +45,7 @@ export function ContactUs() {
         <textarea
           rows="5"
           cols="30"
-          placeholder="Seu comentário ou sugestão..."
+          placeholder="Sua dúvida ou sugestão"
           value={userDoubtOrSuggestions}
           onChange={(ev) => setUserDoubtOrSugestion(ev.target.value)}
         />
