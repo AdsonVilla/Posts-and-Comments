@@ -1,4 +1,4 @@
-# Teste-Frontend
+# Blog e posts
 
 O projeto trata de uma interface de um blog, na qual seja possível observar os posts e, ao clicar em um post, sejam exibidos seus respectivos comentários.
 
